@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,14 +10,17 @@
             background-color: #f4f4f4;
             color: #333;
             text-align: center;
-        }
-        h1 {
-            color: #4CAF50;
+            margin: 0;
+            padding: 0;
         }
         .menu-item {
             margin: 20px;
             display: inline-block;
             text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #fff;
         }
         img {
             width: 200px;
@@ -31,32 +35,35 @@
             font-size: 16px;
             color: #888;
         }
+        /* Hide any extra elements like the header */
+        h1 {
+            display: none;
+        }
     </style>
 </head>
 <body>
 
-    <h1>Food & Beverage Menu</h1>
-
+    <!-- Only display the menu items -->
     <div class="menu-item">
-        <img src="food-menu/beverage.jpg" alt="Beverage">
+        <img src="beverage.jpg" alt="Beverage">
         <h3>Beverage</h3>
         <p class="price">$2.99</p>
     </div>
 
     <div class="menu-item">
-        <img src="food-menu/mushroom-burger.jpg" alt="Mushroom Burger">
+        <img src="mushroom-burger.jpg" alt="Mushroom Burger">
         <h3>Mushroom Burger</h3>
         <p class="price">$8.99</p>
     </div>
 
     <div class="menu-item">
-        <img src="food-menu/pizza-margherita.jpg" alt="Pizza Margherita">
+        <img src="pizza-margherita.jpg" alt="Pizza Margherita">
         <h3>Pizza Margherita</h3>
         <p class="price">$12.99</p>
     </div>
 
     <div class="menu-item">
-        <img src="food-menu/pizza-pepperoni.jpg" alt="Pizza Pepperoni">
+        <img src="pizza-pepperoni.jpg" alt="Pizza Pepperoni">
         <h3>Pizza Pepperoni</h3>
         <p class="price">$14.99</p>
     </div>
